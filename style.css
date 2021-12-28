@@ -149,12 +149,26 @@ color: #FFFFFF;
 
 
 .projetos-section{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    
+    color: #fff;
 }
 
-.projetos h1{
+iframe{
+    max-width: 100%;
+    display: block;
+}
+
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.projeto1{
+    padding-top: 20px;
+}
+.projetos-section h1{
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 600;
@@ -190,8 +204,10 @@ color: #FFFFFF;
 .projeto1 p{
     color: #fff;
     font-family: 'Poppins', cursive;
-    width: 600px;
+    width: 300px;
+    height: auto;
     margin: 0 auto;
+    justify-content: center;
     padding-top: 20px;
     font-weight: 100px;
 }
@@ -232,4 +248,90 @@ color: #FFFFFF;
     margin-top: 50px;
     display: flex;
     justify-content: center;
+}
+
+
+/* contato */
+
+
+.section-contato{
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.section-contato h1{
+
+    font-family: 'Poppins', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.formulario{
+    padding-top: 50px;
+}
+
+.formulario input{
+    
+    width: 740px;
+height: 58px;
+border: 1px solid #42078C;
+box-sizing: border-box;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+.input-msg{
+    width: 740px;
+    height: 85px;
+    border: 1px solid #42078C;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* 
+input{
+    display: block;
+    
+} */
+ input::placeholder{
+    color: #c4c4c4;
+    font-weight: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'Poppins', cursive;
+} 
+
+textarea::placeholder{
+    color: #c4c4c4;
+    font-weight: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Poppins', cursive;
+
+} 
+
+.btn-cancel{
+    width: 130px;
+    height: 49px;
+    background-color: #640000;
+    border-width: 0px;
+    font-family: 'Poppins' cursive;
+    font-size: 14px;
+    margin-top: 15px;
+
+}
+.btn-success{
+    width: 130px;
+    height: 49px;
+    background-color: #0D3A02;
+    border-width: 0px;
+    font-family: 'Poppins' cursive;
+    font-size: 14px;
+
 }
