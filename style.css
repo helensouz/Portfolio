@@ -7,6 +7,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 section, nav{
@@ -190,12 +192,11 @@ iframe{
     padding-top: 20px;
     margin: 0 auto;
 }
-.projetos-section h1{
+.qtitle{
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 120px;
+    font-size: 25px;
     color: #42078C;
     display: flex;
     justify-content: center;       
