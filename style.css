@@ -192,7 +192,7 @@ iframe{
     padding-top: 20px;
     margin: 0 auto;
 }
-.qtitle{
+.projetos-section h1{
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 600;
@@ -393,48 +393,3 @@ textarea{
 
 
 
-
-
-
-
-
-
-
-
-.qualification_title{
-    color: #fff;
-}
-
-.qualification_data{
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
-}
-
-
-
-
-
-.qualification_rounder{
-    display: inline-block;
-    width: 13px;
-    height: 13px;
-    background-color: #fff;
-    border-radius: 50%;
-}
-
-.qualification_line{
-    display: block;
-    width: 1px;
-    height: 100%;
-    background-color: #fff;
-    transform: translate(6px, -7px);
-}
-
-.qualification[data-content]{
-    display: none;
-}
-
-.qualification_active[data-content]{
-    display: block;
-}
