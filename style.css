@@ -51,6 +51,7 @@ nav ul{
 .home {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .home img{
