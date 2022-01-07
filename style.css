@@ -87,7 +87,7 @@ padding-right: 80px;
 
 /* == texto sobre mim */
 
-.info h3{
+.about h1{
     width: 336px;
 height: 98px;
 left: 583px;
@@ -121,16 +121,30 @@ color: #42078C;
     padding-top: 50px;
 }
 
-.info p{
+.about{
+    padding-top: 50px;
+}
+.about p{
     padding-top: 10px;
     margin: 0 auto;
     width: 733px;
     color: #fff;
     font-family: 'Poppins',cursive;
     font-size: 18px;
-    line-height: 25px;
-    padding-bottom: 20px;
+  font-weight: 100;
 }
+.about h3{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 733px;
+    color: #fff;
+    font-family: 'Poppins',cursive;
+    font-size: 18px;
+  
+    
+}
+
+
 
 .line{
     display: block;
@@ -178,6 +192,96 @@ color: #FFFFFF;
     opacity: 1;
     animation: pisca .7s infinite;
    }
+
+
+   /* == tecnologias == */
+
+   .buttons-techs{
+       display: flex;
+       justify-content: center;
+       padding-top: 25px;
+   }
+
+   .btn-tech{
+       margin-right: 10px;
+       width: 80px;
+       height: 40px;
+       border-width: 0px;
+   }
+
+   .html{
+       color: rgb(228, 195, 10);
+       font-weight: 600;
+       font-size: 14px;
+       width: 90px;
+       border: 1px solid rgb(228, 195, 10); ;
+   }
+    .css{
+    color: rgb(45, 8, 206);
+    font-weight: 600;
+    font-size: 14px;
+    width: 90px;
+    border: 1px solid rgb(45, 8, 206); 
+    }
+    .java{
+    color: rgb(5, 89, 214);
+    font-weight: 600;
+    font-size: 14px;
+    width: 90px;
+    border: 1px solid rgb(5, 89, 214);
+    }
+    .javascript{
+    color: rgb(240, 15, 146);
+    font-weight: 600;
+    font-size: 14px;
+    width: 90px;
+    border: 1px solid rgb(240, 15, 146);
+    }
+    .mysql{
+    color: rgb(65, 74, 194);
+    font-weight: 600;
+    font-size: 14px;
+    width: 90px;
+    border: 1px solid rgb(65, 74, 194);  
+    }
+    .mysql{
+    color: rgb(65, 74, 194);
+    font-weight: 600;
+    font-size: 14px;
+    width: 90px;
+    border: 1px solid rgb(65, 74, 194);
+    }
+    .springboot{
+    color: rgb(197, 70, 20);
+    font-weight: 600;
+    font-size: 14px;
+    width: 90px;
+    border: 1px solid rgb(197, 70, 20);
+    }
+    .angular{
+        color: rgb(153, 6, 6);
+        font-weight: 600;
+        font-size: 14px;
+        width: 90px;
+        border: 1px solid rgb(153, 6, 6);
+        }
+        .figma{
+            color: rgb(16, 173, 113);
+            font-weight: 600;
+            font-size: 14px;
+            width: 90px;
+            border: 1px solid rgb(16, 173, 113);
+            }
+            .adobe{
+                color: rgb(19, 187, 41);
+                font-weight: 600;
+                font-size: 14px;
+                width: 90px;
+                border: 1px solid rgb(19, 187, 41);
+                }
+
+
+
 /* === PROJETOS === */
 
 
