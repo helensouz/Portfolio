@@ -190,7 +190,7 @@ iframe{
 .projetos{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    
 
 }
 
@@ -200,10 +200,10 @@ iframe{
     margin: 0 auto;
 }
 .projetos-section h1{
-    font-family: 'Poppins', cursive;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 60px;
     color: #42078C;
     display: flex;
     justify-content: center;       
