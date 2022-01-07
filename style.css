@@ -216,7 +216,9 @@ iframe{
     font-size: 60px;
     color: #42078C;
     display: flex;
-    justify-content: center;       
+    justify-content: center;  
+    padding-top: 90px;
+    padding-bottom: 50px;     
 }
 
 .info-section h1{
@@ -352,7 +354,20 @@ margin-top: 20px;
 display: flex;
 }
 
+.formulario h1{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 120px;
+margin: 0 auto;
+text-align: center;
+align-items: center;
+padding-top: 90px;
+padding-bottom: 50px;
 
+color: #42078C;
+}
 
 .input-msg{
     width: 500px;
