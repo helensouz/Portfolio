@@ -8,8 +8,15 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    background-color: #000;
 
 }
+
+.texta{
+    background-color: #42078C;
+}
+
+
 
 section, nav{
     background-color: #000;
@@ -303,42 +310,48 @@ iframe{
 .section-contato{
     margin: 0 auto;
     justify-content: center;
+    
     padding-top: 90px;
-    align-items: center;
-    text-align: center;
-}
+   
+} 
 
 .section-contato h1{
 
     font-family: 'Poppins', cursive;
     font-style: normal;
+    
     font-weight: 500;
     font-size: 40px;
     line-height: 60px;
     color: #FFFFFF;
 }
 
-.formulario{
+/* .formulario{
     padding-top: 50px;
-}
+} */
 
 .formulario input{
     
-    width: 740px;
+width: 500px;
 height: 58px;
 background-color: #000;
 border: 1px solid #42078C;
 box-sizing: border-box;
 margin: 0 auto;
 margin-top: 20px;
+display: flex;
 }
 
+
+
 .input-msg{
-    width: 740px;
+    width: 500px;
     height: 85px;
     border: 1px solid #42078C;
     box-sizing: border-box;
     margin: 0 auto;
+    display: flex;
+
     margin-top: 20px;
 }
 /* 
@@ -387,6 +400,15 @@ textarea{
     color: #fff;
 
 }
+
+.buttons{
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+
 
 
 
