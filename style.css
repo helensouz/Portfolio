@@ -172,7 +172,12 @@ color: #FFFFFF;
     border: 1px solid #42078C;
     transition: 1s;
 }
-
+.titulo-principal:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+   }
 /* === PROJETOS === */
 
 
@@ -181,6 +186,10 @@ color: #FFFFFF;
     
     color: #fff;
     padding-top: 120px;
+}
+
+.projetos-parte2{
+padding-top: 50px;
 }
 
 iframe{
