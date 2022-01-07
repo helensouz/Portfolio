@@ -95,6 +95,10 @@ nav ul {
   color: #42078c;
 }
 
+.bxl-linkedin-square, .bxl-gmail, .bxl-github{
+    font-size: 30px;
+}
+
 .line-left {
   width: 50px;
   height: 50px;
