@@ -14,31 +14,36 @@
     <div class="navbar">
       <nav>
         <ul>
-          <li><a style="color: #fff" href="#home">Home</a></li>
+          <li><a class="home" style="color: #fff" href="#home">Home</a></li>
           <li><a style="color: #fff" href="#projetos">Projetos </a></li>
           <li><a style="color: #fff" href="#contato">Contato </a></li>
         </ul>
       </nav>
     </div>
-    <section id="home" class="home">
+    <section  class="home">
       <div class="info">
         <h4>Helen Souza</h4>
 
         <h1 class="titulo-principal" style="color: #42078c">Developper full stack.</h1>
+
       </div>
       <div class="perfil">
         <img src="https://i.imgur.com/U0tZ1ZG.png" />
       </div>
     </section>
 
-    <section class="about">
-      <h1>Sobre mim</h1>
+    <section  class="about">
+      <h1 class="aboutme">Sobre mim</h1>
       <p>Tenho 19 anos de idade e resido em São Paulo.Sou apaixonada por desenvolvimento web e design de interfaces.
+
       </p>
       <p><a href="https://www.linkedin.com/in/helen-souza-b4158519b/" target="_blank"> <i class='bx bxl-linkedin-square' style='color:#ffffff'></i></a>
-        <a href="mailto:sousahelen816@gmail.com?Subject=Título%20da%20mensagem" target="_blank"><i class='bx bxl-gmail' style='color:#ffffff'  ></i></a>
+        <a href="mailto:sousahelen816@gmail.com" target="_blank"><i class='bx bxl-gmail' style='color:#ffffff'  ></i></a>
         <a href="https://github.com/helensouz" target="_blank"><i class='bx bxl-github' style='color:#ffffff' ></i></a></p>
-     
+     <p> <button class="btn-curriculo">
+       <a href="curriculo-HelenS.pdf" download><i class='bx bxs-download'></i>
+      Baixar curriculo</a></button>
+     </p>
       <h3 style="color: #42078c;">Formação Acadêmica</h3>
       <p> <strong> Universidade Cruzeiro do Sul</strong>- Análises e desenvolvimento de sistemas</p>
       <p> <strong>Generation Brasil</strong> - Desenvolvimento web java fullstack</p>
@@ -68,8 +73,7 @@
 
       <div class="projetos">
         <div class="projeto1">
-          <iframe src="https://giphy.com/embed/BUDNOM4OpvlRt9svav" width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          
+          <iframe src="https://giphy.com/embed/BUDNOM4OpvlRt9svav" width="480" height="286" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
           <h3>BlogPessoal</h3>
           <p>
             Rede social para postagens de cursos e etc<br />
@@ -89,7 +93,7 @@
         </div>
 
         <div class="projeto1">
-          <iframe src="https://giphy.com/embed/0e5KV7BpdIsSwOzBIk"width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+           <iframe src="https://giphy.com/embed/0e5KV7BpdIsSwOzBIk"width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> 
           
             <h3>Rede Conecta</h3>
             <p>
@@ -132,8 +136,7 @@
 
       <div class="projetos projetos-parte2">
         <div class="projeto1">
-          <iframe src="https://giphy.com/embed/UDHUAyGEFt4PW960MJ" width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          
+          <iframe src="https://giphy.com/embed/UDHUAyGEFt4PW960MJ" width="480" height="256" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>          
           <h3>Clone Netflix</h3>
           <p>
             Catalogo de filmes e séries usando Api pública.<br />
@@ -195,17 +198,21 @@
     <section id="contato" class="section-contato">
       <div class="formulario">
         <h1>Entre em contato!</h1>
-          <input style="background-color: #000;" placeholder="Digite o seu nome" type="text">
-          <input placeholder="Digite o seu e-mail"  type="text">
-          <textarea class="input-msg" placeholder="Digite a sua mensagem"></textarea>
+        <form action="https://formsubmit.co/sousahelen816@gmail.com" method="POST">
+          <input style="background-color: #000;" placeholder="Digite o seu nome" type="text" required>
+          <input placeholder="Digite o seu e-mail"  type="email" required>
+          <input type="hidden" name="_captcha" value="false">
+          <textarea name="message" class="input-msg" placeholder="Digite a sua mensagem" required></textarea>
+          <div class="buttons">
+            
+            <button class="btn-success" type="submit">Enviar</button> 
+          </div>
+        </form>
       </div>
      
   </section>
-  <div class="buttons">
-  <button class="btn-cancel" type="button">Cancelar</button>
-  <button class="btn-success" type="submit">Enviar</button> 
-</div>
-    <footer>
+ 
+    <footer class="footer">
       <p>Desenvolvido por Helen Souza de Oliveira</p>
     </footer>
 

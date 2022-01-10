@@ -7,7 +7,7 @@
   list-style: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  background-color: #000;
+  /* background-color: #000; */
 }
 
 .texta {
@@ -23,6 +23,7 @@ nav {
   color: #fff;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 nav ul li {
@@ -36,9 +37,13 @@ nav ul li {
   padding-top: 18px;
 }
 
+
+
 nav ul {
   display: flex;
 }
+
+
 
 .home {
   display: flex;
@@ -77,7 +82,33 @@ nav ul {
   padding-right: 80px;
 }
 
+@media screen and (max-width: 600px) {
+
+  .perfil img{
+    width: 200px;
+}
+  
+}
+
 /* == texto sobre mim */
+
+.btn-curriculo{
+  height: 50px;
+  width: 170px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #570eb1;
+  border-width: 0px;
+}
+.btn-curriculo  i{
+  font-size: 18px;
+}
+
+.about a {
+  color: #fff;
+  font-size: 16px;
+  padding-left: 9px;
+}
 
 .about h1 {
   width: 336px;
@@ -207,6 +238,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(228, 195, 10);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .css {
   color: rgb(45, 8, 206);
@@ -214,6 +248,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(45, 8, 206);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .java {
   color: rgb(5, 89, 214);
@@ -221,6 +258,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(5, 89, 214);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .javascript {
   color: rgb(240, 15, 146);
@@ -228,6 +268,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(240, 15, 146);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .mysql {
   color: rgb(65, 74, 194);
@@ -235,6 +278,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(65, 74, 194);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .mysql {
   color: rgb(65, 74, 194);
@@ -242,6 +288,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(65, 74, 194);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .springboot {
   color: rgb(197, 70, 20);
@@ -249,6 +298,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(197, 70, 20);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .angular {
   color: rgb(153, 6, 6);
@@ -256,6 +308,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(153, 6, 6);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .figma {
   color: rgb(16, 173, 113);
@@ -263,6 +318,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(16, 173, 113);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 .adobe {
   color: rgb(19, 187, 41);
@@ -270,6 +328,9 @@ nav ul {
   font-size: 14px;
   width: 90px;
   border: 1px solid rgb(19, 187, 41);
+  border-radius: 15px;
+  background-color: #000;
+
 }
 
 /* === PROJETOS === */
@@ -361,17 +422,19 @@ iframe {
 .btn-acess {
   align-items: center;
   margin: 0 auto;
-  width: 150px;
-  height: 50px;
+  width: 180px;
+  height: 60px;
   border-width: 0px;
   background-color: #42078c;
   color: #fff;
-  font-family: "Poppins", cursive;
+  font-family:  'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
   line-height: 22px;
+  border-radius: 15px;
+
 }
 
 .btn-tecnologia {
@@ -402,8 +465,9 @@ iframe {
 .section-contato {
   margin: 0 auto;
   justify-content: center;
-
+  
   padding-top: 90px;
+  padding-bottom: 80px;
 }
 
 .section-contato h1 {
@@ -416,9 +480,7 @@ iframe {
   color: #ffffff;
 }
 
-/* .formulario{
-    padding-top: 50px;
-} */
+ 
 
 .formulario input {
   width: 500px;
@@ -429,6 +491,9 @@ iframe {
   margin: 0 auto;
   margin-top: 20px;
   display: flex;
+  color: #fff;
+  border-radius: 15px;
+
 }
 
 .formulario h1 {
@@ -453,6 +518,7 @@ iframe {
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
+  border-radius: 15px;
 
   margin-top: 20px;
 }
@@ -478,6 +544,9 @@ textarea::placeholder {
 }
 textarea {
   background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+
 }
 
 .btn-cancel {
@@ -489,6 +558,8 @@ textarea {
   font-size: 14px;
   margin-top: 15px;
   color: #fff;
+  border-radius: 15px;
+
 }
 .btn-success {
   width: 130px;
@@ -498,9 +569,26 @@ textarea {
   font-family: "Poppins" cursive;
   font-size: 14px;
   color: #fff;
+  border-radius: 15px;
+  margin-top: 20px;
+
 }
 
 .buttons {
   text-align: center;
   align-items: center;
+}
+
+
+.footer{
+ width: 100%;
+ height: auto;
+/* margin-top: 80px; */
+background-color: #42078c;
+  
+}
+
+.footer p{
+  color: #fff;
+  text-align: center;
 }
