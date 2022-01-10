@@ -37,13 +37,9 @@ nav ul li {
   padding-top: 18px;
 }
 
-
-
 nav ul {
   display: flex;
 }
-
-
 
 .home {
   display: flex;
@@ -83,16 +79,14 @@ nav ul {
 }
 
 @media screen and (max-width: 600px) {
-
-  .perfil img{
-    width: 200px;
-}
-  
+  .perfil img {
+    display: none;
+  }
 }
 
 /* == texto sobre mim */
 
-.btn-curriculo{
+.btn-curriculo {
   height: 50px;
   width: 170px;
   color: #fff;
@@ -100,7 +94,7 @@ nav ul {
   background-color: #570eb1;
   border-width: 0px;
 }
-.btn-curriculo  i{
+.btn-curriculo i {
   font-size: 18px;
 }
 
@@ -126,8 +120,10 @@ nav ul {
   color: #42078c;
 }
 
-.bxl-linkedin-square, .bxl-gmail, .bxl-github{
-    font-size: 30px;
+.bxl-linkedin-square,
+.bxl-gmail,
+.bxl-github {
+  font-size: 30px;
 }
 
 .line-left {
@@ -240,7 +236,6 @@ nav ul {
   border: 1px solid rgb(228, 195, 10);
   border-radius: 15px;
   background-color: #000;
-
 }
 .css {
   color: rgb(45, 8, 206);
@@ -250,7 +245,6 @@ nav ul {
   border: 1px solid rgb(45, 8, 206);
   border-radius: 15px;
   background-color: #000;
-
 }
 .java {
   color: rgb(5, 89, 214);
@@ -260,7 +254,6 @@ nav ul {
   border: 1px solid rgb(5, 89, 214);
   border-radius: 15px;
   background-color: #000;
-
 }
 .javascript {
   color: rgb(240, 15, 146);
@@ -270,7 +263,6 @@ nav ul {
   border: 1px solid rgb(240, 15, 146);
   border-radius: 15px;
   background-color: #000;
-
 }
 .mysql {
   color: rgb(65, 74, 194);
@@ -280,7 +272,6 @@ nav ul {
   border: 1px solid rgb(65, 74, 194);
   border-radius: 15px;
   background-color: #000;
-
 }
 .mysql {
   color: rgb(65, 74, 194);
@@ -290,7 +281,6 @@ nav ul {
   border: 1px solid rgb(65, 74, 194);
   border-radius: 15px;
   background-color: #000;
-
 }
 .springboot {
   color: rgb(197, 70, 20);
@@ -300,7 +290,6 @@ nav ul {
   border: 1px solid rgb(197, 70, 20);
   border-radius: 15px;
   background-color: #000;
-
 }
 .angular {
   color: rgb(153, 6, 6);
@@ -310,7 +299,6 @@ nav ul {
   border: 1px solid rgb(153, 6, 6);
   border-radius: 15px;
   background-color: #000;
-
 }
 .figma {
   color: rgb(16, 173, 113);
@@ -320,7 +308,6 @@ nav ul {
   border: 1px solid rgb(16, 173, 113);
   border-radius: 15px;
   background-color: #000;
-
 }
 .adobe {
   color: rgb(19, 187, 41);
@@ -330,7 +317,6 @@ nav ul {
   border: 1px solid rgb(19, 187, 41);
   border-radius: 15px;
   background-color: #000;
-
 }
 
 /* === PROJETOS === */
@@ -427,14 +413,13 @@ iframe {
   border-width: 0px;
   background-color: #42078c;
   color: #fff;
-  font-family:  'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
   line-height: 22px;
   border-radius: 15px;
-
 }
 
 .btn-tecnologia {
@@ -465,7 +450,7 @@ iframe {
 .section-contato {
   margin: 0 auto;
   justify-content: center;
-  
+
   padding-top: 90px;
   padding-bottom: 80px;
 }
@@ -480,8 +465,6 @@ iframe {
   color: #ffffff;
 }
 
- 
-
 .formulario input {
   width: 500px;
   height: 58px;
@@ -493,7 +476,6 @@ iframe {
   display: flex;
   color: #fff;
   border-radius: 15px;
-
 }
 
 .formulario h1 {
@@ -546,7 +528,6 @@ textarea {
   background-color: #000;
   color: #fff;
   border-radius: 15px;
-
 }
 
 .btn-cancel {
@@ -559,7 +540,6 @@ textarea {
   margin-top: 15px;
   color: #fff;
   border-radius: 15px;
-
 }
 .btn-success {
   width: 130px;
@@ -571,7 +551,6 @@ textarea {
   color: #fff;
   border-radius: 15px;
   margin-top: 20px;
-
 }
 
 .buttons {
@@ -579,16 +558,14 @@ textarea {
   align-items: center;
 }
 
-
-.footer{
- width: 100%;
- height: auto;
-/* margin-top: 80px; */
-background-color: #42078c;
-  
+.footer {
+  width: 100%;
+  height: auto;
+  /* margin-top: 80px; */
+  background-color: #42078c;
 }
 
-.footer p{
+.footer p {
   color: #fff;
   text-align: center;
 }
