@@ -85,9 +85,14 @@ nav ul {
   }
 }
 
-@media screen and (max-width: 800px){
-  .home{
+@media screen and (max-width: 800px) {
+  .home {
     display: flex;
+  }
+
+  .perfil img {
+    width: 350px;
+    padding-top: 300px;
   }
 }
 
