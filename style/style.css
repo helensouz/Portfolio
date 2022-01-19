@@ -224,7 +224,7 @@ margin: 0 auto;
   flex-wrap: wrap;
 }
 
-.linkedin-item{
+.linkedin-item a{
   text-decoration: solid;
   color: #fff;
 }
