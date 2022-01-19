@@ -7,3 +7,5 @@ function typeWrite(elemento){
         }, 200 * i)
     });
 }
+
+this.typeWrite()
