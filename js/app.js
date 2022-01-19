@@ -8,4 +8,4 @@ function typeWrite(elemento){
     });
 }
 
-this.typeWrite()
+typeWrite(titulo);
