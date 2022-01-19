@@ -7,9 +7,3 @@ function typeWrite(elemento){
         }, 200 * i)
     });
 }
-
-const titulo = document.querySelector('.titulo-principal');
-typeWrite(titulo);
-
-
-

@@ -21,6 +21,52 @@ nav{
   flex-wrap: wrap;
 }
 
+/* .mobile-menu{
+  display: none;
+  cursor: pointer;
+} */
+
+.mobile-menu div{
+  width: 32px;
+  margin: 8px;
+  background-color: #5C00A5;
+  float: right;
+  position: absolute;
+  right: 80px;
+  top: 25px ;
+}
+
+.mobile-menu:focus ~ ul{
+  height: 250px;
+}
+
+@media(max-width: 699px) {
+
+    body{
+      overflow: hidden;
+    }
+    .nav-list{
+      position: absolute;
+      height: 90px;
+      flex-direction: column;
+      align-items: center;
+      width: 50vw;
+      transform: translate(100%);
+
+    }  
+    .nav-list.active{
+      transform: translate(0);
+    }
+   
+
+    .mobile-menu{
+      display: block;
+    }
+
+
+
+}
+
 .logo-name h1{
 height: 34px;
 font-family: DM Sans;
@@ -119,17 +165,29 @@ line-height: 18px;
 color: #F9F9F9;
 }
 
+@media screen and (max-width:699px) {
+  .nav-list{
+    display: none;
+  }
+  
+}
+
 @media screen and  (max-width: 500px){
   .intro{
     display: block;
     flex-direction: column;
-        padding-left: 90px; 
+    align-items: center;
+    margin: 0 auto;
   }
 
   .intro img{
     padding-top: 50px;
   }
-  
+  .nav-list{
+  display: none;
+
+  }
+
   nav ul{
      flex-direction: column;
   }
@@ -367,7 +425,7 @@ border: 1px solid #333333;
 
 .cards-skills img{
  padding-left: 30px;
- padding-top: 50px;
+ padding-top: 30px;
 }
 
 footer{
