@@ -4,219 +4,169 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css"/>
-    <link rel="icon" type="imagem/png" href="/Group 1 (1).png" />
+    <link rel="stylesheet" href="/style/style.css"/>
+    <link rel="icon" type="imagem/png" href="/assets/Group 1 (1).png" />
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Portfolio pessoal</title>
   </head>
   <body>
-    <div class="navbar">
-      <nav>
-        <ul>
-          <li><a class="home" style="color: #fff" href="#home">Home</a></li>
-          <li><a style="color: #fff" href="#projetos">Projetos </a></li>
-          <li><a style="color: #fff" href="#contato">Contato </a></li>
-        </ul>
-      </nav>
-    </div>
-    <section  class="home">
-      <div class="info">
-        <h4>Helen Souza</h4>
-
-        <h1 class="titulo-principal" style="color: #42078c">Developper full stack.</h1>
-
+    <nav>
+      <div class="logo-name">
+        <h1>Helen Oliveira</h1>
       </div>
-      <div class="perfil">
-        <img src="https://i.imgur.com/U0tZ1ZG.png" />
+      <ul>
+        <li><a style="color: #F9F9F9;" href="#about">Sobre mim</a></li>
+        <li><a style="color: #F9F9F9;" href="#projetos">Projetos</a></li>
+        <li><a style="color: #F9F9F9;" href="#serviços">Serviços</a></li>
+        <li><a style="color: #F9F9F9;" href="#skills">Minhas skills</a></li>
+      </ul>
+    </nav>
+
+    <section class="intro">
+      <div>
+        <h1>Olá, eu sou a <br> Helen Souza</h1>
+        <p>Desenvolvedor Front-End & UI Designer</p>
+        <button class="btn-download"><a href="/doc/curriculo-HelenS.pdf" download>Download curriculo</a></button>
+        <button class="btn-contact"><a>Entrar em contato</a></button>
+      </div>
+      <div>
+      <img src="assets/perfil-site.png" alt="perfil"/>
       </div>
     </section>
 
-    <section  class="about">
-      <h1 class="aboutme">Sobre mim</h1>
-      <p>Tenho 19 anos de idade e resido em São Paulo.Sou apaixonada por desenvolvimento web e design de interfaces.
 
+    <section class="about" id="about" >
+      <h1>Sobre mim</h1>
+      <p class="about-p">Tenho 19 anos de idade e resido em São Paulo.Sou apaixonada por desenvolvimento web e design de interfaces.    
       </p>
-      <p><a href="https://www.linkedin.com/in/helen-souza-b4158519b/" target="_blank"> <i class='bx bxl-linkedin-square' style='color:#ffffff'></i></a>
-        <a href="mailto:sousahelen816@gmail.com" target="_blank"><i class='bx bxl-gmail' style='color:#ffffff'  ></i></a>
-        <a href="https://github.com/helensouz" target="_blank"><i class='bx bxl-github' style='color:#ffffff' ></i></a></p>
-     <p> <button class="btn-curriculo">
-       <a href="curriculo-HelenS.pdf" download><i class='bx bxs-download'></i>
-      Baixar curriculo</a></button>
-     </p>
-      <h3 style="color: #42078c;">Formação Acadêmica</h3>
-      <p> <strong> Universidade Cruzeiro do Sul</strong>- Análises e desenvolvimento de sistemas</p>
-      <p> <strong>Generation Brasil</strong> - Desenvolvimento web java fullstack</p>
-    <h3 style="color: #42078c;">Tecnologias</h3>
-      <div class="buttons-techs">
-        <button class="btn-tech html">Html</button>
-        <button class="btn-tech css">Css</button>
-        <button class="btn-tech java">Java</button>
-        <button class="btn-tech javascript">Javascript</button>
-        <div>
-        <button class="btn-tech mysql">MYSql</button>
-        <button class="btn-tech springboot">Spring Boot</button>
-        <button class="btn-tech angular">Angular</button>
-        <button class="btn-tech figma">Figma</button>
-        </div>
-      </div>
+      <p class="about-p"><strong style="color: #C071FF;">Formações Acadêmicas: </strong></p>
+      <p class="about-p">
+        UnicSul- Análises e desenvolvimento de sistemas<br>
+        Generation Brasil - Desenvolvedor web java fullstack jr
+       </p>
+          <div class="contato-items">
+            <div class="name-item">
+              <img src="/assets/svg-name.png">
+              <p>Meu Nome</p>
+              <small>Helen Souza de Oliveira</small>
+            </div>
+            <div class="email-item">
+              <img src="/assets/svg-email.png">
+              <p>E-mail</p>
+              <small>sousahelen816@gmail.com</small>
+            </div>
+            <div class="linkedin-item">
+              <img src="/assets/svg-linkedin.png">
+              <p>Linkedin</p>
+              <small>Helen Souza</small>
+            </div>
+            <div class="tel-item">
+              <img src="/assets/svg-tel.png">
+              <p>Telefone</p>
+              <small>+55 11 991439677</small>
+            </div>
+
+          </div>
 
     </section>
 
-    
-
-
-
-
-    <section id="projetos" class="projetos-section">
+    <section class="area-projetos" id="projetos">
       <h1>Projetos</h1>
+      <div class="projetos">
+          <div>
+            <img src="/assets/tela-log-renascentista.JPG" type="video/mp4">
+            <div class="card-projeto">
+            <p>Título do projeto</p>
+            <small>Tecnologias: HTML, CSS e JS.</small>
+          </div>
+          </div>
+          <div>
+            <img src="/assets/tela-log-renascentista.JPG" type="video/mp4">
+            <div class="card-projeto">
+            <p>Título do projeto</p>
+            <small>Tecnologias: HTML, CSS e JS.</small>
+          </div>
+          </div>
+          <div>
+            <img src="/assets/tela-log-renascentista.JPG" type="video/mp4">
+            <div class="card-projeto">
+            <p>Título do projeto</p>
+            <small>Tecnologias: HTML, CSS e JS.</small>
+          </div>
+          </div>
+      </div>
 
       <div class="projetos">
-        <div class="projeto1">
-          <iframe src="https://giphy.com/embed/BUDNOM4OpvlRt9svav" width="480" height="286" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          <h3>BlogPessoal</h3>
-          <p>
-            Rede social para postagens de cursos e etc<br />
-            <button class="btn-tecnologia">html</button>
-            <button class="btn-tecnologia">sass</button>
-            <button class="btn-tecnologia">angular</button>
-            <button class="btn-tecnologia">SpringBoot</button>
-            <button class="btn-tecnologia">MYSql</button>
-          </p>
-          <div class="btn">
-            <button class="btn-acess">
-              <a class="texta" style="color: #fff" href="https://bloghelenoliveira.netlify.app/#/entrar" target="_blank"
-                >Acessar o site</a
-              >
-            </button>
-          </div>
+        <div>
+          <img src="/assets/tela-log-renascentista.JPG" type="video/mp4">
+          <div class="card-projeto">
+          <p>Título do projeto</p>
+          <small>Tecnologias: HTML, CSS e JS.</small>
         </div>
-
-        <div class="projeto1">
-           <iframe src="https://giphy.com/embed/0e5KV7BpdIsSwOzBIk"width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> 
-          
-            <h3>Rede Conecta</h3>
-            <p>
-              Rede social para gerar conexão com pequenos empreendedores<br />
-              <button class="btn-tecnologia">html</button>
-              <button class="btn-tecnologia">sass</button>
-              <button class="btn-tecnologia">angular</button>
-              <button class="btn-tecnologia">SpringBoot</button>
-              <button class="btn-tecnologia">MYSql</button>
-            </p>
-            <div class="btn">
-              <button class="btn-acess"><a class="texta" style="color: #fff" href="https://github.com/conectaGeneration" target="_blank">Acessar o código</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="projeto1">
-            <iframe
-            src="https://giphy.com/embed/7zNAne7JULkKTNd4wI"
-            width="400" height="300"
-            frameborder="0"
-            class="giphy-embed"
-            allowfullscreen
-          ></iframe>       
-            <h3>Bytebank</h3>
-            <p>
-              Sistema de transações e saques bancários.<br />
-              <button class="btn-tecnologia">html</button>
-              <button class="btn-tecnologia">sass</button>
-              <button class="btn-tecnologia">angular</button>
-            </p>
-            <div class="btn">
-              <button class="btn-acess"><a class="texta" style="color: #fff" href="https://github.com/helensouz/bytebank" target="_blank">Acessar o código</a>
-              </button>
-            </div>
-          </div>
-
-
-      </div>
-
-      <div class="projetos projetos-parte2">
-        <div class="projeto1">
-          <iframe src="https://giphy.com/embed/UDHUAyGEFt4PW960MJ" width="480" height="256" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>          
-          <h3>Clone Netflix</h3>
-          <p>
-            Catalogo de filmes e séries usando Api pública.<br />
-            <button class="btn-tecnologia">html</button>
-            <button class="btn-tecnologia">css</button>
-            <button class="btn-tecnologia">javascript</button>
-          </p>
-          <div class="btn">
-            <button class="btn-acess">
-              <a class="texta" style="color: #fff" href="https://github.com/helensouz/Clone-Netflix" target="_blank"
-                >Acessar o código</a
-              >
-            </button>
-          </div>
         </div>
-
-        <div class="projeto1">
-          <iframe src="https://giphy.com/embed/sasYMQnjtf7f0bDKFN" width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen>
-
-          </iframe>
-            <h3>lista de tarefas</h3>
-            <p>
-              Lista para criar e apagar tarefas<br />
-              <button class="btn-tecnologia">html</button>
-              <button class="btn-tecnologia">css</button>
-              <button class="btn-tecnologia">javascript</button>
-            </p>
-            <div class="btn">
-              <button class="btn-acess"><a class="texta" style="color: #fff" href="https://github.com/helensouz/ListadeTarefas" target="_blank">Acessar o código</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="projeto1">
-            <iframe src="https://giphy.com/embed/tWpBfuufCbTAFI6ZQT" width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-            
-            <h3>Imc</h3>
-            <p>
-              Calculo de imc<br />
-              <button class="btn-tecnologia">html</button>
-              <button class="btn-tecnologia">css</button>
-              <button class="btn-tecnologia">javascript</button>
-            </p>
-            <div class="btn">
-              <button class="btn-acess"><a class="texta" style="color: #fff" href="https://github.com/helensouz/calculadora" target="_blank">Acessar o código</a>
-              </button>
-            </div>
-          </div>
-
-
-       
-  
-
-      </div>
-
-     
+        <div>
+          <img src="/assets/tela-log-renascentista.JPG" type="video/mp4">
+          <div class="card-projeto">
+          <p>Título do projeto</p>
+          <small>Tecnologias: HTML, CSS e JS.</small>
+        </div>
+        </div>
+        <div>
+          <img src="/assets/tela-log-renascentista.JPG" type="video/mp4">
+          <div class="card-projeto">
+          <p>Título do projeto</p>
+          <small>Tecnologias: HTML, CSS e JS.</small>
+        </div>
+        </div>
+    </div>
     </section>
 
-    <section id="contato" class="section-contato">
-      <div class="formulario">
-        <h1>Entre em contato!</h1>
-        <form action="https://formsubmit.co/sousahelen816@gmail.com" method="POST">
-          <input style="background-color: #000;" placeholder="Digite o seu nome" type="text" required>
-          <input placeholder="Digite o seu e-mail"  type="email" required>
-          <input type="hidden" name="_captcha" value="false">
-          <textarea name="message" class="input-msg" placeholder="Digite a sua mensagem" required></textarea>
-          <div class="buttons">
-            
-            <button class="btn-success" type="submit">Enviar</button> 
-          </div>
-        </form>
+    <section class="area-servicos">
+      <h1>Serviços</h1>
+      <div class="cards-servicos">
+        <div class="card">
+          <img src="/assets/code.png">
+          <h3>Criação 
+            de sites</h3>
+        </div>
+        <div class="card">
+          <img src="/assets/figma.png">
+          <h3>UI
+            Designer</h3>
+        </div>
+        <div class="card">
+          <img src="/assets/smartphone.png">
+          <h3>Sites
+            responsivos</h3>
+        </div>
       </div>
-     
-  </section>
- 
-    <footer class="footer">
-      <p>Desenvolvido por Helen Souza de Oliveira</p>
-    </footer>
+
+    </section>
+
+    <section class="skilss">
+<h1>Skilss</h1>
+<div class="skillscards">
+  <div class="cards-skills">
+    <img src="/assets/html.png">
+  </div>
+  <div class="cards-skills">
+    <img src="/assets/css.png">
+  </div>
+  <div class="cards-skills">
+    <img src="/assets/js.png">
+  </div>
+  <div class="cards-skills">
+    <img src="/assets/js.png">
+  </div>
+  <div class="cards-skills">
+    <img src="/assets/js.png">
+  </div>
+</div>
+    </section>
+   
 
 
-    <script src="/app.js"></script>
+    <script src="/js/app.js"></script>
   </body>
 </html>
