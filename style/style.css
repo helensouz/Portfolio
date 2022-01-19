@@ -228,7 +228,7 @@ color: #828282;
   padding-bottom: 160px;
 }
 .projetos img{
-width: 480px;
+width: 400px;
 height: 286px;
 }
 
@@ -240,7 +240,7 @@ flex-wrap: wrap;
 }
 
 .card-projeto{
-  width: 480px;
+  width: 400px;
 height: 90px;
 background: #5C00A5;
 box-sizing: border-box;
