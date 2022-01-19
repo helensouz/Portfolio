@@ -224,6 +224,11 @@ margin: 0 auto;
   flex-wrap: wrap;
 }
 
+.linkedin-item{
+  text-decoration: solid;
+  color: #fff;
+}
+
 .contato-items p{
 font-family: DM Sans;
 font-style: normal;
