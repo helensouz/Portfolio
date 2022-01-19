@@ -225,7 +225,11 @@ color: #828282;
 /* === PROJETOS === */
 .area-projetos{
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 160px;
+}
+.projetos img{
+width: 480px;
+height: 286px;
 }
 
 .projetos{
@@ -236,7 +240,7 @@ flex-wrap: wrap;
 }
 
 .card-projeto{
-  width: 400px;
+  width: 480px;
 height: 90px;
 background: #5C00A5;
 box-sizing: border-box;
@@ -256,10 +260,7 @@ margin: 0 auto;
 padding-bottom: 90px;
 }
 
-.area-projetos img{
-  width: 400px;
-  height: 300px
-}
+
 
 .area-projetos p{
   font-family: DM Sans;
@@ -305,7 +306,7 @@ padding-bottom: 10px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  padding-bottom: 160px;
 }
 
 .card{
@@ -338,7 +339,6 @@ padding-top: 60px;
 /* == skilss ==== */
 
 .skilss h1{
-  width: 128px;
   height: 42px;
   font-family: DM Sans;
   font-style: normal;
@@ -353,8 +353,9 @@ padding-top: 60px;
 
 .skillscards{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 160px;
 }
 
 .cards-skills{
@@ -367,4 +368,19 @@ border: 1px solid #333333;
 .cards-skills img{
  padding-left: 30px;
  padding-top: 50px;
+}
+
+footer{
+  background-color: #212121;
+  padding-top: 10px;
+}
+
+footer p{
+  text-align: center;
+  font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color: #F9F9F9;
 }
