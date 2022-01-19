@@ -420,6 +420,9 @@ height: 150px;
 background: #212121;
 border: 1px solid #333333;
 }
+.cards-skills:hover{
+  background-color: #a8a1a1;
+}
 
 .cards-skills img{
  padding-left: 30px;
