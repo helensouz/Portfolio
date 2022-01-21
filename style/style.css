@@ -42,22 +42,11 @@ nav{
 
 @media(max-width: 699px) {
 
-    body{
-      overflow: hidden;
-    }
-    .nav-list{
-      position: absolute;
-      height: 90px;
-      flex-direction: column;
-      align-items: center;
-      width: 50vw;
-      transform: translate(100%);
+    
 
-    }  
-    .nav-list.active{
-      transform: translate(0);
+    .about-p{
+      font-size: 14px;
     }
-   
 
     .mobile-menu{
       display: block;
@@ -84,13 +73,13 @@ nav ul{
 }
 
 nav ul li{
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-color: #F9F9F9;
-padding-left: 45px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #F9F9F9;
+  padding-left: 45px;
 
 }
 
@@ -102,7 +91,7 @@ padding-left: 45px;
 }
 
 .intro h1{
- 
+ width: 350px;
 font-family: DM Sans;
 font-style: normal;
 font-weight: bold;
@@ -235,6 +224,11 @@ margin: 0 auto;
   flex-wrap: wrap;
 }
 
+.linkedin-item a{
+  text-decoration: solid;
+  color: #777272;
+}
+
 .contato-items p{
 font-family: DM Sans;
 font-style: normal;
@@ -280,7 +274,7 @@ color: #828282;
   
 }
 
-/* === PROJETOS === */
+/* === SECTION PROJETOS === */
 .area-projetos{
   padding-top: 80px;
   padding-bottom: 160px;
@@ -309,6 +303,9 @@ box-sizing: border-box;
   margin-right: 10px;
 }
 
+.card-projeto svg:hover{
+  color: #5C00A5;
+}
 
 
 .area-projetos h1{
@@ -335,6 +332,7 @@ padding-bottom: 90px;
   line-height: 23px;
   color: #FFFFFF;
   padding-top: 10px;
+  padding-left: 10px;
 padding-bottom: 10px;
 display: flex;
   justify-content: center;
@@ -343,6 +341,7 @@ display: flex;
 .projetos small{
   width: 400px;
   padding-left: 20px;
+  padding-left: 10px;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
@@ -439,6 +438,10 @@ padding-top: 60px;
 height: 150px;
 background: #212121;
 border: 1px solid #333333;
+}
+.cards-skills:hover{
+  background-color: #a8a1a1;
+  transition: 1s;
 }
 
 .cards-skills:hover{
