@@ -285,10 +285,6 @@ color: #828282;
   padding-top: 80px;
   padding-bottom: 160px;
 }
-.projetos img{
-width: 400px;
-height: 286px;
-}
 
 .projetos{
 display: flex;
@@ -297,12 +293,23 @@ padding-bottom: 40px;
 flex-wrap: wrap;
 }
 
+
 .card-projeto{
   width: 400px;
-height: 90px;
+height: 120px;
 background: #5C00A5;
 box-sizing: border-box;
 }
+
+.github{
+  padding-top: 12px;
+}
+
+.github svg{
+  margin-right: 10px;
+}
+
+
 
 .area-projetos h1{
   width: 128px;
@@ -328,11 +335,13 @@ padding-bottom: 90px;
   line-height: 23px;
   color: #FFFFFF;
   padding-top: 10px;
-  padding-left: 20px;
 padding-bottom: 10px;
+display: flex;
+  justify-content: center;
 }
 
 .projetos small{
+  width: 400px;
   padding-left: 20px;
   font-family: DM Sans;
   font-style: normal;
@@ -341,6 +350,9 @@ padding-bottom: 10px;
   line-height: 18px;
   color: #fff;
   margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   
 }
 
@@ -372,6 +384,12 @@ padding-bottom: 10px;
 height: 240px;
 background: #212121;
 border-bottom: 5px solid #C071FF;
+
+}
+
+.card:hover{
+  background: #585858;
+  transition: 1s;
 
 }
 
@@ -423,6 +441,11 @@ background: #212121;
 border: 1px solid #333333;
 }
 
+.cards-skills:hover{
+  background: #585858;
+  transition: 1s;
+}
+
 .cards-skills img{
  padding-left: 30px;
  padding-top: 30px;
@@ -442,3 +465,26 @@ font-size: 16px;
 line-height: 21px;
 color: #F9F9F9;
 }
+
+/* == animação */
+[data-anime]{
+  opacity: 0;
+  transition: 1.5s;
+}
+
+[data-anime="down"]{
+  transform: translate3d(0,-100%,0);
+}
+[data-anime="left"]{
+  transform: translate3d(-100%,0,0);
+}
+
+[data-anime="right"]{
+  transform: translate3d(50px,0,0);
+}
+
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
